@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AF52E4F82032FDE8009426B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E4F72032FDE8009426B1 /* AppDelegate.swift */; };
-		AF52E4FA2032FDE8009426B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E4F92032FDE8009426B1 /* ViewController.swift */; };
 		AF52E4FD2032FDE8009426B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF52E4FB2032FDE8009426B1 /* Main.storyboard */; };
 		AF52E5002032FDE8009426B1 /* mysqlSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF52E4FE2032FDE8009426B1 /* mysqlSwift.xcdatamodeld */; };
 		AF52E5022032FDE8009426B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF52E5012032FDE8009426B1 /* Assets.xcassets */; };
 		AF52E5052032FDE8009426B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF52E5032032FDE8009426B1 /* LaunchScreen.storyboard */; };
 		AF52E5102032FDE8009426B1 /* mysqlSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E50F2032FDE8009426B1 /* mysqlSwiftTests.swift */; };
 		AF52E51B2032FDE8009426B1 /* mysqlSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E51A2032FDE8009426B1 /* mysqlSwiftUITests.swift */; };
+		AF52E52D203303FC009426B1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E52C203303FC009426B1 /* LoginViewController.swift */; };
+		AF52E52F20330D7A009426B1 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E52E20330D7A009426B1 /* MypageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 /* Begin PBXFileReference section */
 		AF52E4F42032FDE8009426B1 /* mysqlSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mysqlSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF52E4F72032FDE8009426B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF52E4F92032FDE8009426B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF52E4FC2032FDE8009426B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF52E4FF2032FDE8009426B1 /* mysqlSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mysqlSwift.xcdatamodel; sourceTree = "<group>"; };
 		AF52E5012032FDE8009426B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		AF52E5162032FDE8009426B1 /* mysqlSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mysqlSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF52E51A2032FDE8009426B1 /* mysqlSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mysqlSwiftUITests.swift; sourceTree = "<group>"; };
 		AF52E51C2032FDE8009426B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF52E52C203303FC009426B1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF52E52E20330D7A009426B1 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				AF52E4F72032FDE8009426B1 /* AppDelegate.swift */,
-				AF52E4F92032FDE8009426B1 /* ViewController.swift */,
 				AF52E4FB2032FDE8009426B1 /* Main.storyboard */,
+				AF52E52C203303FC009426B1 /* LoginViewController.swift */,
+				AF52E52E20330D7A009426B1 /* MypageViewController.swift */,
 				AF52E5012032FDE8009426B1 /* Assets.xcassets */,
 				AF52E5032032FDE8009426B1 /* LaunchScreen.storyboard */,
 				AF52E5062032FDE8009426B1 /* Info.plist */,
@@ -192,7 +195,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = "二瀬征子";
+				ORGANIZATIONNAME = nishun0419;
 				TargetAttributes = {
 					AF52E4F32032FDE8009426B1 = {
 						CreatedOnToolsVersion = 9.2;
@@ -262,9 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF52E4FA2032FDE8009426B1 /* ViewController.swift in Sources */,
+				AF52E52D203303FC009426B1 /* LoginViewController.swift in Sources */,
 				AF52E5002032FDE8009426B1 /* mysqlSwift.xcdatamodeld in Sources */,
 				AF52E4F82032FDE8009426B1 /* AppDelegate.swift in Sources */,
+				AF52E52F20330D7A009426B1 /* MypageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RY7LJXGUGK;
 				INFOPLIST_FILE = mysqlSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.futasekun.mysqlSwift;
@@ -445,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RY7LJXGUGK;
 				INFOPLIST_FILE = mysqlSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.futasekun.mysqlSwift;
@@ -491,6 +497,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RY7LJXGUGK;
 				INFOPLIST_FILE = mysqlSwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.futasekun.mysqlSwiftUITests;
@@ -506,6 +513,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RY7LJXGUGK;
 				INFOPLIST_FILE = mysqlSwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.futasekun.mysqlSwiftUITests;

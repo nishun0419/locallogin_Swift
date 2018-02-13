@@ -1,15 +1,18 @@
 //
-//  ViewController.swift
+//  MypageViewController.swift
 //  mysqlSwift
 //
 //  Created by shin on 2018/02/13.
-//  Copyright © 2018年 二瀬征子. All rights reserved.
+//  Copyright © 2018年 nishun0419. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class MypageViewController: UIViewController {
+    @IBOutlet weak var welcomemes: UILabel!
+    @IBOutlet weak var UserName: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

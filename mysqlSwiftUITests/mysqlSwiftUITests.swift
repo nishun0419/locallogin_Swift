@@ -3,7 +3,7 @@
 //  mysqlSwiftUITests
 //
 //  Created by shin on 2018/02/13.
-//  Copyright © 2018年 二瀬征子. All rights reserved.
+//  Copyright © 2018年 nishun0419. All rights reserved.
 //
 
 import XCTest
