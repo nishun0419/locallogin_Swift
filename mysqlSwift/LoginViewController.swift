@@ -32,16 +32,20 @@ class LoginViewController: UIViewController {
         let pass = Passtext.text;
         var errorflag = false;
         
+        var data:Data?
+        var response:URLResponse?
+        var error:Error?
+        
         if(id != "" || pass != ""){
-            let requestURL = NSURL(string: "http:192.168.33.10/Adduser/hack/login.hh");
+            let requestURL = URL(string: "http:192.168.33.10/Adduser/hack/login.hh");
             let request = NSMutableURLRequest(url: requestURL! as URL);
             
             request.httpMethod = "POST";
             let postParam = "id="+id! + "&password="+pass!;
             request.httpBody = postParam.data(using: String.Encoding.utf8);
             
-            let task = URLSession.shared.dataTask(with: request as URLRequest){
-                data, response, error in
+//            let task = URLSession.shared.synchronousDataTask(with: request as URLRequest){
+            (data, response, error) = execute(request as URLRequest);
                 if error != nil{
                     print("error is a \(error!)");
                     return;
@@ -51,10 +55,10 @@ class LoginViewController: UIViewController {
                     let myJSON = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as? NSDictionary;
                     if let parseJSON = myJSON{
                         if(parseJSON["error"] != nil){
-                            errorflag = true;
                             if(parseJSON["error"] as! String == "loginerror"){
                                 DispatchQueue.main.async {
                                     self.errorlog.text = "ログインIDが違います";
+                                    errorflag = true;
                                 }
                                 return;
                             
@@ -62,6 +66,7 @@ class LoginViewController: UIViewController {
                             else if(parseJSON["error"] as! String == "passerror"){
                                 DispatchQueue.main.async {
                                     self.errorlog.text = "パスワードが違います";
+                                    errorflag = true;
                                 }
                                 return;
                             }
@@ -81,13 +86,33 @@ class LoginViewController: UIViewController {
                     print(error);
                 }
             }
-            task.resume();
             if(errorflag == false){
                 let mypageviewcontroller: MypageViewController = self.storyboard?.instantiateViewController(withIdentifier: "mypage") as! MypageViewController;
                 self.present(mypageviewcontroller,animated: true, completion: nil);
             }
         }
+    
+    
+func execute(_ request: URLRequest) -> (Data?, URLResponse?, Error?) {
+    let config = URLSessionConfiguration.default
+    let session = URLSession(configuration: config)
+    var d:Data? = nil
+    var r:URLResponse? = nil
+    var e:Error? = nil
+    let semaphore = DispatchSemaphore(value: 0)
+    let task = session.dataTask(with: request) { (data, response, error) in
+        d = data
+        r = response
+        e = error
+        semaphore.signal()
+        
     }
+    task.resume()
+    // 戻り値を無視
+    _ = semaphore.wait(timeout: .distantFuture)
+    return (d, r, e)
+}
+
     
     
     /*
