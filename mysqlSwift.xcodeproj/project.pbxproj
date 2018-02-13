@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF52E4F82032FDE8009426B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E4F72032FDE8009426B1 /* AppDelegate.swift */; };
+		AF52E4FA2032FDE8009426B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E4F92032FDE8009426B1 /* ViewController.swift */; };
+		AF52E4FD2032FDE8009426B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF52E4FB2032FDE8009426B1 /* Main.storyboard */; };
+		AF52E5002032FDE8009426B1 /* mysqlSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF52E4FE2032FDE8009426B1 /* mysqlSwift.xcdatamodeld */; };
+		AF52E5022032FDE8009426B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF52E5012032FDE8009426B1 /* Assets.xcassets */; };
+		AF52E5052032FDE8009426B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF52E5032032FDE8009426B1 /* LaunchScreen.storyboard */; };
+		AF52E5102032FDE8009426B1 /* mysqlSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E50F2032FDE8009426B1 /* mysqlSwiftTests.swift */; };
+		AF52E51B2032FDE8009426B1 /* mysqlSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E51A2032FDE8009426B1 /* mysqlSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF52E50C2032FDE8009426B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF52E4EC2032FDE8009426B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF52E4F32032FDE8009426B1;
+			remoteInfo = mysqlSwift;
+		};
+		AF52E5172032FDE8009426B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF52E4EC2032FDE8009426B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF52E4F32032FDE8009426B1;
+			remoteInfo = mysqlSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF52E4F42032FDE8009426B1 /* mysqlSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mysqlSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF52E4F72032FDE8009426B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF52E4F92032FDE8009426B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF52E4FC2032FDE8009426B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF52E4FF2032FDE8009426B1 /* mysqlSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mysqlSwift.xcdatamodel; sourceTree = "<group>"; };
+		AF52E5012032FDE8009426B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF52E5042032FDE8009426B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF52E5062032FDE8009426B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF52E50B2032FDE8009426B1 /* mysqlSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mysqlSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF52E50F2032FDE8009426B1 /* mysqlSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mysqlSwiftTests.swift; sourceTree = "<group>"; };
+		AF52E5112032FDE8009426B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF52E5162032FDE8009426B1 /* mysqlSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mysqlSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF52E51A2032FDE8009426B1 /* mysqlSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mysqlSwiftUITests.swift; sourceTree = "<group>"; };
+		AF52E51C2032FDE8009426B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF52E4F12032FDE8009426B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF52E5082032FDE8009426B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF52E5132032FDE8009426B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF52E4EB2032FDE8009426B1 = {
+			isa = PBXGroup;
+			children = (
+				AF52E4F62032FDE8009426B1 /* mysqlSwift */,
+				AF52E50E2032FDE8009426B1 /* mysqlSwiftTests */,
+				AF52E5192032FDE8009426B1 /* mysqlSwiftUITests */,
+				AF52E4F52032FDE8009426B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF52E4F52032FDE8009426B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF52E4F42032FDE8009426B1 /* mysqlSwift.app */,
+				AF52E50B2032FDE8009426B1 /* mysqlSwiftTests.xctest */,
+				AF52E5162032FDE8009426B1 /* mysqlSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF52E4F62032FDE8009426B1 /* mysqlSwift */ = {
+			isa = PBXGroup;
+			children = (
+				AF52E4F72032FDE8009426B1 /* AppDelegate.swift */,
+				AF52E4F92032FDE8009426B1 /* ViewController.swift */,
+				AF52E4FB2032FDE8009426B1 /* Main.storyboard */,
+				AF52E5012032FDE8009426B1 /* Assets.xcassets */,
+				AF52E5032032FDE8009426B1 /* LaunchScreen.storyboard */,
+				AF52E5062032FDE8009426B1 /* Info.plist */,
+				AF52E4FE2032FDE8009426B1 /* mysqlSwift.xcdatamodeld */,
+			);
+			path = mysqlSwift;
+			sourceTree = "<group>";
+		};
+		AF52E50E2032FDE8009426B1 /* mysqlSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF52E50F2032FDE8009426B1 /* mysqlSwiftTests.swift */,
+				AF52E5112032FDE8009426B1 /* Info.plist */,
+			);
+			path = mysqlSwiftTests;
+			sourceTree = "<group>";
+		};
+		AF52E5192032FDE8009426B1 /* mysqlSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF52E51A2032FDE8009426B1 /* mysqlSwiftUITests.swift */,
+				AF52E51C2032FDE8009426B1 /* Info.plist */,
+			);
+			path = mysqlSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF52E4F32032FDE8009426B1 /* mysqlSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF52E51F2032FDE8009426B1 /* Build configuration list for PBXNativeTarget "mysqlSwift" */;
+			buildPhases = (
+				AF52E4F02032FDE8009426B1 /* Sources */,
+				AF52E4F12032FDE8009426B1 /* Frameworks */,
+				AF52E4F22032FDE8009426B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mysqlSwift;
+			productName = mysqlSwift;
+			productReference = AF52E4F42032FDE8009426B1 /* mysqlSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF52E50A2032FDE8009426B1 /* mysqlSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF52E5222032FDE8009426B1 /* Build configuration list for PBXNativeTarget "mysqlSwiftTests" */;
+			buildPhases = (
+				AF52E5072032FDE8009426B1 /* Sources */,
+				AF52E5082032FDE8009426B1 /* Frameworks */,
+				AF52E5092032FDE8009426B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF52E50D2032FDE8009426B1 /* PBXTargetDependency */,
+			);
+			name = mysqlSwiftTests;
+			productName = mysqlSwiftTests;
+			productReference = AF52E50B2032FDE8009426B1 /* mysqlSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF52E5152032FDE8009426B1 /* mysqlSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF52E5252032FDE8009426B1 /* Build configuration list for PBXNativeTarget "mysqlSwiftUITests" */;
+			buildPhases = (
+				AF52E5122032FDE8009426B1 /* Sources */,
+				AF52E5132032FDE8009426B1 /* Frameworks */,
+				AF52E5142032FDE8009426B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF52E5182032FDE8009426B1 /* PBXTargetDependency */,
+			);
+			name = mysqlSwiftUITests;
+			productName = mysqlSwiftUITests;
+			productReference = AF52E5162032FDE8009426B1 /* mysqlSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF52E4EC2032FDE8009426B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "二瀬征子";
+				TargetAttributes = {
+					AF52E4F32032FDE8009426B1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AF52E50A2032FDE8009426B1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF52E4F32032FDE8009426B1;
+					};
+					AF52E5152032FDE8009426B1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF52E4F32032FDE8009426B1;
+					};
+				};
+			};
+			buildConfigurationList = AF52E4EF2032FDE8009426B1 /* Build configuration list for PBXProject "mysqlSwift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF52E4EB2032FDE8009426B1;
+			productRefGroup = AF52E4F52032FDE8009426B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF52E4F32032FDE8009426B1 /* mysqlSwift */,
+				AF52E50A2032FDE8009426B1 /* mysqlSwiftTests */,
+				AF52E5152032FDE8009426B1 /* mysqlSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF52E4F22032FDE8009426B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF52E5052032FDE8009426B1 /* LaunchScreen.storyboard in Resources */,
+				AF52E5022032FDE8009426B1 /* Assets.xcassets in Resources */,
+				AF52E4FD2032FDE8009426B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF52E5092032FDE8009426B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF52E5142032FDE8009426B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF52E4F02032FDE8009426B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF52E4FA2032FDE8009426B1 /* ViewController.swift in Sources */,
+				AF52E5002032FDE8009426B1 /* mysqlSwift.xcdatamodeld in Sources */,
+				AF52E4F82032FDE8009426B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF52E5072032FDE8009426B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF52E5102032FDE8009426B1 /* mysqlSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF52E5122032FDE8009426B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF52E51B2032FDE8009426B1 /* mysqlSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF52E50D2032FDE8009426B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF52E4F32032FDE8009426B1 /* mysqlSwift */;
+			targetProxy = AF52E50C2032FDE8009426B1 /* PBXContainerItemProxy */;
+		};
+		AF52E5182032FDE8009426B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF52E4F32032FDE8009426B1 /* mysqlSwift */;
+			targetProxy = AF52E5172032FDE8009426B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF52E4FB2032FDE8009426B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF52E4FC2032FDE8009426B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF52E5032032FDE8009426B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF52E5042032FDE8009426B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF52E51D2032FDE8009426B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF52E51E2032FDE8009426B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF52E5202032FDE8009426B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mysqlSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.futasekun.mysqlSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF52E5212032FDE8009426B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mysqlSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.futasekun.mysqlSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF52E5232032FDE8009426B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mysqlSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.futasekun.mysqlSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mysqlSwift.app/mysqlSwift";
+			};
+			name = Debug;
+		};
+		AF52E5242032FDE8009426B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mysqlSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.futasekun.mysqlSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mysqlSwift.app/mysqlSwift";
+			};
+			name = Release;
+		};
+		AF52E5262032FDE8009426B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mysqlSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.futasekun.mysqlSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mysqlSwift;
+			};
+			name = Debug;
+		};
+		AF52E5272032FDE8009426B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mysqlSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.futasekun.mysqlSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mysqlSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF52E4EF2032FDE8009426B1 /* Build configuration list for PBXProject "mysqlSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF52E51D2032FDE8009426B1 /* Debug */,
+				AF52E51E2032FDE8009426B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF52E51F2032FDE8009426B1 /* Build configuration list for PBXNativeTarget "mysqlSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF52E5202032FDE8009426B1 /* Debug */,
+				AF52E5212032FDE8009426B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF52E5222032FDE8009426B1 /* Build configuration list for PBXNativeTarget "mysqlSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF52E5232032FDE8009426B1 /* Debug */,
+				AF52E5242032FDE8009426B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF52E5252032FDE8009426B1 /* Build configuration list for PBXNativeTarget "mysqlSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF52E5262032FDE8009426B1 /* Debug */,
+				AF52E5272032FDE8009426B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF52E4FE2032FDE8009426B1 /* mysqlSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF52E4FF2032FDE8009426B1 /* mysqlSwift.xcdatamodel */,
+			);
+			currentVersion = AF52E4FF2032FDE8009426B1 /* mysqlSwift.xcdatamodel */;
+			path = mysqlSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF52E4EC2032FDE8009426B1 /* Project object */;
+}
