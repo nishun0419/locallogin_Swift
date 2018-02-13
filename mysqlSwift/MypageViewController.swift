@@ -15,6 +15,8 @@ class MypageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        UserName.text = UserDefaults.standard.string(forKey: "id")! + "様";
+        
 
         // Do any additional setup after loading the view.
     }
