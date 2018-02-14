@@ -97,7 +97,7 @@ class LoginViewController: UIViewController {
             errorflag = true;
         }
             if(errorflag == false){
-                let mypageviewcontroller: MypageViewController = self.storyboard?.instantiateViewController(withIdentifier: "mypage") as! MypageViewController;
+                let mypageviewcontroller:MypageViewController = self.storyboard?.instantiateViewController(withIdentifier: "mypage") as! MypageViewController;
                 self.present(mypageviewcontroller,animated: true, completion: nil);
             }
         }

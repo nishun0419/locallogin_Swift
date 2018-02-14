@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vhv-er-vRu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fbJ-oL-Lea">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -75,7 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KuW-dD-bcl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-34.399999999999999" y="129.98500749625188"/>
+            <point key="canvasLocation" x="518" y="124"/>
         </scene>
         <!--Mypage View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -140,10 +140,155 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="725.60000000000002" y="129.98500749625188"/>
+            <point key="canvasLocation" x="-409" y="136"/>
+        </scene>
+        <!--detail-->
+        <scene sceneID="aNX-Q9-X4Y">
+            <objects>
+                <viewController id="2lO-4B-kxD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PW6-E3-T8v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0J02021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JLN-fi-IrE">
+                                <rect key="frame" x="154" y="58" width="67.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ITスペシャリスト学科" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEg-bX-MjV">
+                                <rect key="frame" x="102" y="164" width="170.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.95499662919999995" blue="0.24039551470000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xEg-bX-MjV" firstAttribute="centerX" secondItem="PW6-E3-T8v" secondAttribute="centerX" id="2IP-2X-xxT"/>
+                            <constraint firstItem="xEg-bX-MjV" firstAttribute="top" secondItem="JLN-fi-IrE" secondAttribute="bottom" constant="85" id="ATL-Ev-H1T"/>
+                            <constraint firstItem="JLN-fi-IrE" firstAttribute="centerX" secondItem="PW6-E3-T8v" secondAttribute="centerX" id="CrD-ye-6fn"/>
+                            <constraint firstItem="JLN-fi-IrE" firstAttribute="top" secondItem="SLS-Nx-ymr" secondAttribute="top" constant="38" id="N7b-Kt-MtA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SLS-Nx-ymr"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="detail" image="tabハサミのフリーアイコン.png" id="egM-Xp-boN" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <connections>
+                            <outlet property="animation" destination="Xix-14-iOD" id="Y9h-qz-pR0"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yc9-z7-ywN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="Xix-14-iOD" customClass="RAMLeftRotationAnimation" customModule="RAMAnimatedTabBarController"/>
+            </objects>
+            <point key="canvasLocation" x="2358" y="456"/>
+        </scene>
+        <!--other-->
+        <scene sceneID="ySQ-rh-4an">
+            <objects>
+                <viewController id="UR6-CC-xqs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vMc-NM-zip">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ハリネズミ.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="xoD-Wu-Q3G">
+                                <rect key="frame" x="29" y="49" width="128" height="127"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ハリネズミ.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="4dH-Ux-PyY">
+                                <rect key="frame" x="214" y="48" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a0001_014465.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8yv-xJ-BeS">
+                                <rect key="frame" x="29" y="269" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a0001_014465.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pKk-3f-Gyq">
+                                <rect key="frame" x="214" y="269" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="saX-kO-bgR"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="other" image="tab夜空のフリーアイコン.png" id="Q4P-Uh-PQv" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <connections>
+                            <outlet property="animation" destination="k2x-7b-UJT" id="aKl-gJ-uDn"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eP7-TL-B67" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="k2x-7b-UJT" customClass="RAMFlipTopTransitionItemAnimations" customModule="RAMAnimatedTabBarController"/>
+            </objects>
+            <point key="canvasLocation" x="1576.8" y="1076.311844077961"/>
+        </scene>
+        <!--mypage-->
+        <scene sceneID="2da-Ob-BWt">
+            <objects>
+                <viewController id="voS-15-ece" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zOX-aD-9ax">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="神戸電子専門学校" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3a-uT-7um">
+                                <rect key="frame" x="117.5" y="45" width="139" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="二瀬峻介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awJ-gg-mu3">
+                                <rect key="frame" x="152.5" y="155" width="69.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.41983620970000002" green="1" blue="0.96315221470000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="q3a-uT-7um" firstAttribute="top" secondItem="P7h-73-b07" secondAttribute="top" constant="25" id="Jcz-vg-agS"/>
+                            <constraint firstItem="awJ-gg-mu3" firstAttribute="centerX" secondItem="zOX-aD-9ax" secondAttribute="centerX" id="Usc-gS-9J5"/>
+                            <constraint firstItem="q3a-uT-7um" firstAttribute="centerX" secondItem="zOX-aD-9ax" secondAttribute="centerX" id="etq-Rh-dHh"/>
+                            <constraint firstItem="awJ-gg-mu3" firstAttribute="top" secondItem="q3a-uT-7um" secondAttribute="bottom" constant="89" id="sNo-R3-5Yi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="P7h-73-b07"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="mypage" image="tabアンケート用紙のアイコン素材.png" id="PLR-k6-JYB" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <connections>
+                            <outlet property="animation" destination="S85-CJ-K1i" id="68D-2y-etU"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iq5-xf-C8T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="S85-CJ-K1i" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
+            </objects>
+            <point key="canvasLocation" x="2358" y="-209"/>
+        </scene>
+        <!--Animated Tab Bar Controller-->
+        <scene sceneID="GSe-Ri-ykM">
+            <objects>
+                <tabBarController storyboardIdentifier="tabfirst" id="fbJ-oL-Lea" customClass="RAMAnimatedTabBarController" customModule="RAMAnimatedTabBarController" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DJD-SU-UsR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="voS-15-ece" kind="relationship" relationship="viewControllers" id="85F-WV-jfe"/>
+                        <segue destination="2lO-4B-kxD" kind="relationship" relationship="viewControllers" id="42l-Ys-ufk"/>
+                        <segue destination="UR6-CC-xqs" kind="relationship" relationship="viewControllers" id="swQ-1R-V9i"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="97Z-Nu-ScY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1406" y="124"/>
         </scene>
     </scenes>
     <resources>
+        <image name="a0001_014465.jpg" width="481" height="319"/>
         <image name="login_back.png" width="500" height="500"/>
+        <image name="tabアンケート用紙のアイコン素材.png" width="30" height="30"/>
+        <image name="tabハサミのフリーアイコン.png" width="30" height="30"/>
+        <image name="tab夜空のフリーアイコン.png" width="30" height="30"/>
+        <image name="ハリネズミ.jpeg" width="90" height="90"/>
     </resources>
 </document>

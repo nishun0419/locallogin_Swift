@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32186DB6AE154BB84B9156B1 /* Pods_mysqlSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C39F4EEC7B1B4724176231 /* Pods_mysqlSwift.framework */; };
 		AF0DD8FE20340D9700646DE5 /* login_back.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0DD8FD20340D9700646DE5 /* login_back.png */; };
 		AF52E4F82032FDE8009426B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E4F72032FDE8009426B1 /* AppDelegate.swift */; };
 		AF52E4FD2032FDE8009426B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF52E4FB2032FDE8009426B1 /* Main.storyboard */; };
@@ -17,6 +18,13 @@
 		AF52E51B2032FDE8009426B1 /* mysqlSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E51A2032FDE8009426B1 /* mysqlSwiftUITests.swift */; };
 		AF52E52D203303FC009426B1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E52C203303FC009426B1 /* LoginViewController.swift */; };
 		AF52E52F20330D7A009426B1 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E52E20330D7A009426B1 /* MypageViewController.swift */; };
+		AF89BA612034534700821738 /* ハリネズミ.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF89BA602034534700821738 /* ハリネズミ.jpeg */; };
+		AF89BA632034538C00821738 /* a0001_014465.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF89BA622034538C00821738 /* a0001_014465.jpg */; };
+		AFF023A020343FD700EB235D /* tabアンケート用紙のアイコン素材.png in Resources */ = {isa = PBXBuildFile; fileRef = AFF0239D20343FD700EB235D /* tabアンケート用紙のアイコン素材.png */; };
+		AFF023A120343FD700EB235D /* tabハサミのフリーアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = AFF0239E20343FD700EB235D /* tabハサミのフリーアイコン.png */; };
+		AFF023A220343FD700EB235D /* tab夜空のフリーアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = AFF0239F20343FD700EB235D /* tab夜空のフリーアイコン.png */; };
+		F40FB79CDFFDC2E5D6D5DCA4 /* Pods_mysqlSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9A55C4A4802A3F5045F481 /* Pods_mysqlSwiftUITests.framework */; };
+		FFF6610F57245ECC85E0A206 /* Pods_mysqlSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA9C645B2BBF479E78F8C06 /* Pods_mysqlSwiftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7090A583358E34FCA1ADD330 /* Pods-mysqlSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mysqlSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mysqlSwiftUITests/Pods-mysqlSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8993B09F45D18DCB51C8B860 /* Pods-mysqlSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mysqlSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-mysqlSwift/Pods-mysqlSwift.release.xcconfig"; sourceTree = "<group>"; };
 		AF0DD8FD20340D9700646DE5 /* login_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_back.png; path = "../../../../Users/ninoseseiko/Desktop/apache-tomcat-8.5.13/webapps/php/image/login_back.png"; sourceTree = "<group>"; };
 		AF52E4F42032FDE8009426B1 /* mysqlSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mysqlSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF52E4F72032FDE8009426B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +63,18 @@
 		AF52E51C2032FDE8009426B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF52E52C203303FC009426B1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AF52E52E20330D7A009426B1 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
+		AF89BA602034534700821738 /* ハリネズミ.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ハリネズミ.jpeg"; sourceTree = "<group>"; };
+		AF89BA622034538C00821738 /* a0001_014465.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a0001_014465.jpg; sourceTree = "<group>"; };
+		AFF0239D20343FD700EB235D /* tabアンケート用紙のアイコン素材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabアンケート用紙のアイコン素材.png"; sourceTree = "<group>"; };
+		AFF0239E20343FD700EB235D /* tabハサミのフリーアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabハサミのフリーアイコン.png"; sourceTree = "<group>"; };
+		AFF0239F20343FD700EB235D /* tab夜空のフリーアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab夜空のフリーアイコン.png"; sourceTree = "<group>"; };
+		BF9A55C4A4802A3F5045F481 /* Pods_mysqlSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mysqlSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABE0D031A01310D5B386A4A /* Pods-mysqlSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mysqlSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mysqlSwiftTests/Pods-mysqlSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDA9C645B2BBF479E78F8C06 /* Pods_mysqlSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mysqlSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A9282B09F40CA13EBE8E40 /* Pods-mysqlSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mysqlSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mysqlSwiftTests/Pods-mysqlSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		F1CEA478DF65120187E2F2D0 /* Pods-mysqlSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mysqlSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mysqlSwift/Pods-mysqlSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		F3C39F4EEC7B1B4724176231 /* Pods_mysqlSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mysqlSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F892FCDCD40E86E6E5760934 /* Pods-mysqlSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mysqlSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mysqlSwiftUITests/Pods-mysqlSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32186DB6AE154BB84B9156B1 /* Pods_mysqlSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF6610F57245ECC85E0A206 /* Pods_mysqlSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F40FB79CDFFDC2E5D6D5DCA4 /* Pods_mysqlSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4ED3D0FDC5659B75E5DFDB0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3C39F4EEC7B1B4724176231 /* Pods_mysqlSwift.framework */,
+				DDA9C645B2BBF479E78F8C06 /* Pods_mysqlSwiftTests.framework */,
+				BF9A55C4A4802A3F5045F481 /* Pods_mysqlSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55310A13B8D900E418B0ED0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1CEA478DF65120187E2F2D0 /* Pods-mysqlSwift.debug.xcconfig */,
+				8993B09F45D18DCB51C8B860 /* Pods-mysqlSwift.release.xcconfig */,
+				CABE0D031A01310D5B386A4A /* Pods-mysqlSwiftTests.debug.xcconfig */,
+				E7A9282B09F40CA13EBE8E40 /* Pods-mysqlSwiftTests.release.xcconfig */,
+				7090A583358E34FCA1ADD330 /* Pods-mysqlSwiftUITests.debug.xcconfig */,
+				F892FCDCD40E86E6E5760934 /* Pods-mysqlSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AF52E4EB2032FDE8009426B1 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +135,8 @@
 				AF52E50E2032FDE8009426B1 /* mysqlSwiftTests */,
 				AF52E5192032FDE8009426B1 /* mysqlSwiftUITests */,
 				AF52E4F52032FDE8009426B1 /* Products */,
+				55310A13B8D900E418B0ED0F /* Pods */,
+				4ED3D0FDC5659B75E5DFDB0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +159,7 @@
 				AF52E52E20330D7A009426B1 /* MypageViewController.swift */,
 				AF0DD8FD20340D9700646DE5 /* login_back.png */,
 				AF52E5012032FDE8009426B1 /* Assets.xcassets */,
+				AFF0239C20343FD700EB235D /* images */,
 				AF52E5032032FDE8009426B1 /* LaunchScreen.storyboard */,
 				AF52E5062032FDE8009426B1 /* Info.plist */,
 				AF52E4FE2032FDE8009426B1 /* mysqlSwift.xcdatamodeld */,
@@ -134,6 +185,18 @@
 			path = mysqlSwiftUITests;
 			sourceTree = "<group>";
 		};
+		AFF0239C20343FD700EB235D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AFF0239D20343FD700EB235D /* tabアンケート用紙のアイコン素材.png */,
+				AFF0239E20343FD700EB235D /* tabハサミのフリーアイコン.png */,
+				AF89BA622034538C00821738 /* a0001_014465.jpg */,
+				AF89BA602034534700821738 /* ハリネズミ.jpeg */,
+				AFF0239F20343FD700EB235D /* tab夜空のフリーアイコン.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF52E51F2032FDE8009426B1 /* Build configuration list for PBXNativeTarget "mysqlSwift" */;
 			buildPhases = (
+				D4D441982A33D7B83D54CB93 /* [CP] Check Pods Manifest.lock */,
 				AF52E4F02032FDE8009426B1 /* Sources */,
 				AF52E4F12032FDE8009426B1 /* Frameworks */,
 				AF52E4F22032FDE8009426B1 /* Resources */,
+				16692B916204E651F0FBE1C6 /* [CP] Embed Pods Frameworks */,
+				58CD223DAC8BA2E50390E42E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF52E5222032FDE8009426B1 /* Build configuration list for PBXNativeTarget "mysqlSwiftTests" */;
 			buildPhases = (
+				F6043A2B07095F173ED708C1 /* [CP] Check Pods Manifest.lock */,
 				AF52E5072032FDE8009426B1 /* Sources */,
 				AF52E5082032FDE8009426B1 /* Frameworks */,
 				AF52E5092032FDE8009426B1 /* Resources */,
+				570E474380086D8323631E43 /* [CP] Embed Pods Frameworks */,
+				79F62DE0E04C306CBAC129AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF52E5252032FDE8009426B1 /* Build configuration list for PBXNativeTarget "mysqlSwiftUITests" */;
 			buildPhases = (
+				96EF9610EE1D82CAB8DEC7B4 /* [CP] Check Pods Manifest.lock */,
 				AF52E5122032FDE8009426B1 /* Sources */,
 				AF52E5132032FDE8009426B1 /* Frameworks */,
 				AF52E5142032FDE8009426B1 /* Resources */,
+				3C872DD66AA1D979A95EAD5B /* [CP] Embed Pods Frameworks */,
+				78B73B1BB913E7ACC6AB99E8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,9 +313,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFF023A120343FD700EB235D /* tabハサミのフリーアイコン.png in Resources */,
+				AFF023A020343FD700EB235D /* tabアンケート用紙のアイコン素材.png in Resources */,
 				AF52E5052032FDE8009426B1 /* LaunchScreen.storyboard in Resources */,
+				AF89BA632034538C00821738 /* a0001_014465.jpg in Resources */,
 				AF52E5022032FDE8009426B1 /* Assets.xcassets in Resources */,
 				AF0DD8FE20340D9700646DE5 /* login_back.png in Resources */,
+				AFF023A220343FD700EB235D /* tab夜空のフリーアイコン.png in Resources */,
+				AF89BA612034534700821738 /* ハリネズミ.jpeg in Resources */,
 				AF52E4FD2032FDE8009426B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +340,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16692B916204E651F0FBE1C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mysqlSwift/Pods-mysqlSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mysqlSwift/Pods-mysqlSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C872DD66AA1D979A95EAD5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mysqlSwiftUITests/Pods-mysqlSwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		570E474380086D8323631E43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mysqlSwiftTests/Pods-mysqlSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58CD223DAC8BA2E50390E42E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mysqlSwift/Pods-mysqlSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78B73B1BB913E7ACC6AB99E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mysqlSwiftUITests/Pods-mysqlSwiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79F62DE0E04C306CBAC129AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mysqlSwiftTests/Pods-mysqlSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96EF9610EE1D82CAB8DEC7B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mysqlSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4D441982A33D7B83D54CB93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mysqlSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6043A2B07095F173ED708C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mysqlSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF52E4F02032FDE8009426B1 /* Sources */ = {
@@ -436,6 +663,7 @@
 		};
 		AF52E5202032FDE8009426B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1CEA478DF65120187E2F2D0 /* Pods-mysqlSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +679,7 @@
 		};
 		AF52E5212032FDE8009426B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8993B09F45D18DCB51C8B860 /* Pods-mysqlSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +695,7 @@
 		};
 		AF52E5232032FDE8009426B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CABE0D031A01310D5B386A4A /* Pods-mysqlSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +712,7 @@
 		};
 		AF52E5242032FDE8009426B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A9282B09F40CA13EBE8E40 /* Pods-mysqlSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +729,7 @@
 		};
 		AF52E5262032FDE8009426B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7090A583358E34FCA1ADD330 /* Pods-mysqlSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +746,7 @@
 		};
 		AF52E5272032FDE8009426B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F892FCDCD40E86E6E5760934 /* Pods-mysqlSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
