@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF0DD8FE20340D9700646DE5 /* login_back.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0DD8FD20340D9700646DE5 /* login_back.png */; };
 		AF52E4F82032FDE8009426B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E4F72032FDE8009426B1 /* AppDelegate.swift */; };
 		AF52E4FD2032FDE8009426B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF52E4FB2032FDE8009426B1 /* Main.storyboard */; };
 		AF52E5002032FDE8009426B1 /* mysqlSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF52E4FE2032FDE8009426B1 /* mysqlSwift.xcdatamodeld */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF0DD8FD20340D9700646DE5 /* login_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_back.png; path = "../../../../Users/ninoseseiko/Desktop/apache-tomcat-8.5.13/webapps/php/image/login_back.png"; sourceTree = "<group>"; };
 		AF52E4F42032FDE8009426B1 /* mysqlSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mysqlSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF52E4F72032FDE8009426B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF52E4FC2032FDE8009426B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				AF52E4FB2032FDE8009426B1 /* Main.storyboard */,
 				AF52E52C203303FC009426B1 /* LoginViewController.swift */,
 				AF52E52E20330D7A009426B1 /* MypageViewController.swift */,
+				AF0DD8FD20340D9700646DE5 /* login_back.png */,
 				AF52E5012032FDE8009426B1 /* Assets.xcassets */,
 				AF52E5032032FDE8009426B1 /* LaunchScreen.storyboard */,
 				AF52E5062032FDE8009426B1 /* Info.plist */,
@@ -240,6 +243,7 @@
 			files = (
 				AF52E5052032FDE8009426B1 /* LaunchScreen.storyboard in Resources */,
 				AF52E5022032FDE8009426B1 /* Assets.xcassets in Resources */,
+				AF0DD8FE20340D9700646DE5 /* login_back.png in Resources */,
 				AF52E4FD2032FDE8009426B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

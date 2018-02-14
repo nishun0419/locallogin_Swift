@@ -13,7 +13,7 @@
         <!--Login View Controller-->
         <scene sceneID="WZu-kC-2La">
             <objects>
-                <viewController id="vhv-er-vRu" customClass="LoginViewController" customModule="mysqlSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="login" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vhv-er-vRu" customClass="LoginViewController" customModule="mysqlSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TMy-WB-BVq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,22 +85,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ようこそ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cqy-o5-qRr">
-                                <rect key="frame" x="150" y="62" width="74" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="EFc-Se-1Sf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ようこそ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cqy-o5-qRr">
+                                <rect key="frame" x="152.5" y="40" width="69.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="？？？？様" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGw-dd-Bze">
-                                <rect key="frame" x="137" y="122" width="100" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="？？？？様" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGw-dd-Bze">
+                                <rect key="frame" x="143.5" y="100" width="87" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tio-wR-n7s">
+                                <rect key="frame" x="148.5" y="141" width="77" height="30"/>
+                                <color key="backgroundColor" red="0.41983620970000002" green="1" blue="0.96315221470000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="oy0-mT-Y3j"/>
+                                </constraints>
+                                <state key="normal" title="ログアウト"/>
+                                <connections>
+                                    <action selector="logout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ji7-jr-X3m"/>
+                                </connections>
+                            </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VRJ-jK-K26">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem systemItem="contacts" id="2QA-U5-hUW"/>
+                                    <tabBarItem systemItem="more" id="I1i-zv-gxy"/>
+                                </items>
+                            </tabBar>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.97926300764083862" green="0.98352068662643433" blue="0.94875484704971313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vGw-dd-Bze" firstAttribute="top" secondItem="Cqy-o5-qRr" secondAttribute="bottom" constant="39" id="5KO-W2-aea"/>
+                            <constraint firstItem="Cqy-o5-qRr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6UU-Vv-cq3"/>
+                            <constraint firstItem="Tio-wR-n7s" firstAttribute="top" secondItem="vGw-dd-Bze" secondAttribute="bottom" constant="20" id="TWg-TL-7lu"/>
+                            <constraint firstItem="Tio-wR-n7s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VAy-dP-y3f"/>
+                            <constraint firstItem="Cqy-o5-qRr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="bT5-Wg-vYn"/>
+                            <constraint firstItem="vGw-dd-Bze" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zVX-Hb-l1g"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
@@ -113,4 +143,7 @@
             <point key="canvasLocation" x="725.60000000000002" y="129.98500749625188"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="login_back.png" width="500" height="500"/>
+    </resources>
 </document>

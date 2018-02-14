@@ -17,10 +17,16 @@ class LoginViewController: UIViewController {
     
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad();
+//        let mypageviewcontroller: MypageViewController = self.storyboard?.instantiateViewController(withIdentifier: "mypage") as! MypageViewController;
+//        self.present(mypageviewcontroller, animated:true, completion: nil);
+        if(UserDefaults.standard.string(forKey: "id") != nil){
+        self.errorlog.text=UserDefaults.standard.string(forKey: "id");
+        }
 
         // Do any additional setup after loading the view.
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -86,6 +92,10 @@ class LoginViewController: UIViewController {
                     print(error);
                 }
             }
+        else{
+            self.errorlog.text="idとpasswordを入力してください";
+            errorflag = true;
+        }
             if(errorflag == false){
                 let mypageviewcontroller: MypageViewController = self.storyboard?.instantiateViewController(withIdentifier: "mypage") as! MypageViewController;
                 self.present(mypageviewcontroller,animated: true, completion: nil);

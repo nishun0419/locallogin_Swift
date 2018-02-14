@@ -25,6 +25,11 @@ class MypageViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBAction func logout(_ sender: Any) {
+        UserDefaults.standard.removeObject(forKey: "id");
+        let loginviewcontroller: LoginViewController = self.storyboard?.instantiateViewController(withIdentifier: "login") as! LoginViewController;
+        self.present(loginviewcontroller,animated: true, completion: nil);
+    }
     
 
     /*
