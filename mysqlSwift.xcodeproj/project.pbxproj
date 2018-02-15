@@ -20,6 +20,7 @@
 		AF52E52F20330D7A009426B1 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E52E20330D7A009426B1 /* MypageViewController.swift */; };
 		AF89BA612034534700821738 /* ハリネズミ.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF89BA602034534700821738 /* ハリネズミ.jpeg */; };
 		AF89BA632034538C00821738 /* a0001_014465.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF89BA622034538C00821738 /* a0001_014465.jpg */; };
+		AFDF20402035F3CB0012104B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF203F2035F3CB0012104B /* CollectionViewController.swift */; };
 		AFF023A020343FD700EB235D /* tabアンケート用紙のアイコン素材.png in Resources */ = {isa = PBXBuildFile; fileRef = AFF0239D20343FD700EB235D /* tabアンケート用紙のアイコン素材.png */; };
 		AFF023A120343FD700EB235D /* tabハサミのフリーアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = AFF0239E20343FD700EB235D /* tabハサミのフリーアイコン.png */; };
 		AFF023A220343FD700EB235D /* tab夜空のフリーアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = AFF0239F20343FD700EB235D /* tab夜空のフリーアイコン.png */; };
@@ -65,6 +66,7 @@
 		AF52E52E20330D7A009426B1 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
 		AF89BA602034534700821738 /* ハリネズミ.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ハリネズミ.jpeg"; sourceTree = "<group>"; };
 		AF89BA622034538C00821738 /* a0001_014465.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a0001_014465.jpg; sourceTree = "<group>"; };
+		AFDF203F2035F3CB0012104B /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		AFF0239D20343FD700EB235D /* tabアンケート用紙のアイコン素材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabアンケート用紙のアイコン素材.png"; sourceTree = "<group>"; };
 		AFF0239E20343FD700EB235D /* tabハサミのフリーアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabハサミのフリーアイコン.png"; sourceTree = "<group>"; };
 		AFF0239F20343FD700EB235D /* tab夜空のフリーアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab夜空のフリーアイコン.png"; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			children = (
 				AF52E4F72032FDE8009426B1 /* AppDelegate.swift */,
 				AF52E4FB2032FDE8009426B1 /* Main.storyboard */,
+				AFDF203F2035F3CB0012104B /* CollectionViewController.swift */,
 				AF52E52C203303FC009426B1 /* LoginViewController.swift */,
 				AF52E52E20330D7A009426B1 /* MypageViewController.swift */,
 				AF0DD8FD20340D9700646DE5 /* login_back.png */,
@@ -500,6 +503,7 @@
 				AF52E5002032FDE8009426B1 /* mysqlSwift.xcdatamodeld in Sources */,
 				AF52E4F82032FDE8009426B1 /* AppDelegate.swift in Sources */,
 				AF52E52F20330D7A009426B1 /* MypageViewController.swift in Sources */,
+				AFDF20402035F3CB0012104B /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

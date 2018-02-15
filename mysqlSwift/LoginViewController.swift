@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RAMAnimatedTabBarController
 
 class LoginViewController: UIViewController {
     @IBOutlet weak var IDtext: UITextField!
@@ -43,7 +44,7 @@ class LoginViewController: UIViewController {
         var error:Error?
         
         if(id != "" || pass != ""){
-            let requestURL = URL(string: "http:192.168.33.10/Adduser/hack/login.hh");
+            let requestURL = URL(string: "http://ec2-18-219-91-77.us-east-2.compute.amazonaws.com/Adduser/hack/login.hh");
             let request = NSMutableURLRequest(url: requestURL! as URL);
             
             request.httpMethod = "POST";
@@ -97,8 +98,8 @@ class LoginViewController: UIViewController {
             errorflag = true;
         }
             if(errorflag == false){
-                let mypageviewcontroller:MypageViewController = self.storyboard?.instantiateViewController(withIdentifier: "mypage") as! MypageViewController;
-                self.present(mypageviewcontroller,animated: true, completion: nil);
+                let tabviewcontroller:RAMAnimatedTabBarController = self.storyboard?.instantiateViewController(withIdentifier: "tabfirst") as! RAMAnimatedTabBarController;
+                self.present(tabviewcontroller,animated: true, completion: nil);
             }
         }
     

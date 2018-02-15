@@ -181,7 +181,70 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yc9-z7-ywN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="Xix-14-iOD" customClass="RAMLeftRotationAnimation" customModule="RAMAnimatedTabBarController"/>
             </objects>
-            <point key="canvasLocation" x="2358" y="456"/>
+            <point key="canvasLocation" x="2382" y="-368"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="TMG-0u-R01">
+            <objects>
+                <viewController id="FvI-NM-aeJ" customClass="CollectionView" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YnD-Pf-WVh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="oAI-so-rKl">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="144" id="668-8s-v9f">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="144"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="668-8s-v9f" id="DyG-Up-Tdq">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="143.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SXY-9i-ngJ">
+                                                    <rect key="frame" x="15" y="0.0" width="51" height="40"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SbY-mC-Jpw">
+                                                    <rect key="frame" x="74" y="-3" width="66" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zKh-Lb-lIV">
+                                                    <rect key="frame" x="19" y="48" width="341" height="85"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="d8A-BH-Hmb" firstAttribute="trailing" secondItem="oAI-so-rKl" secondAttribute="trailing" id="4pf-rM-qjm"/>
+                            <constraint firstItem="d8A-BH-Hmb" firstAttribute="bottom" secondItem="oAI-so-rKl" secondAttribute="bottom" id="fQI-hL-Hpb"/>
+                            <constraint firstItem="oAI-so-rKl" firstAttribute="leading" secondItem="d8A-BH-Hmb" secondAttribute="leading" id="jaE-Sx-8AI"/>
+                            <constraint firstItem="oAI-so-rKl" firstAttribute="top" secondItem="d8A-BH-Hmb" secondAttribute="top" id="trS-hM-ipx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="d8A-BH-Hmb"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="tab夜空のフリーアイコン.png" id="WXO-ml-cMd" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <connections>
+                            <outlet property="animation" destination="u9n-sK-rIk" id="Xci-U0-LiR"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DKT-re-LrV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="u9n-sK-rIk" customClass="RAMFlipTopTransitionItemAnimations" customModule="RAMAnimatedTabBarController"/>
+            </objects>
+            <point key="canvasLocation" x="866.39999999999998" y="927.88605697151434"/>
         </scene>
         <!--other-->
         <scene sceneID="ySQ-rh-4an">
@@ -220,7 +283,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eP7-TL-B67" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="k2x-7b-UJT" customClass="RAMFlipTopTransitionItemAnimations" customModule="RAMAnimatedTabBarController"/>
             </objects>
-            <point key="canvasLocation" x="1576.8" y="1076.311844077961"/>
+            <point key="canvasLocation" x="1703" y="928"/>
         </scene>
         <!--mypage-->
         <scene sceneID="2da-Ob-BWt">
@@ -261,7 +324,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iq5-xf-C8T" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="S85-CJ-K1i" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
             </objects>
-            <point key="canvasLocation" x="2358" y="-209"/>
+            <point key="canvasLocation" x="2382" y="341"/>
         </scene>
         <!--Animated Tab Bar Controller-->
         <scene sceneID="GSe-Ri-ykM">
@@ -276,6 +339,7 @@
                         <segue destination="voS-15-ece" kind="relationship" relationship="viewControllers" id="85F-WV-jfe"/>
                         <segue destination="2lO-4B-kxD" kind="relationship" relationship="viewControllers" id="42l-Ys-ufk"/>
                         <segue destination="UR6-CC-xqs" kind="relationship" relationship="viewControllers" id="swQ-1R-V9i"/>
+                        <segue destination="FvI-NM-aeJ" kind="relationship" relationship="viewControllers" id="ntj-yY-79o"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="97Z-Nu-ScY" userLabel="First Responder" sceneMemberID="firstResponder"/>
