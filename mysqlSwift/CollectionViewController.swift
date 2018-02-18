@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CollectionViewController: UITableView {
+class CollectionViewController: UITableViewController {
 
     /*
     // Only override draw() if you perform custom drawing.

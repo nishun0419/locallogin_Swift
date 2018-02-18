@@ -20,7 +20,12 @@
 		AF52E52F20330D7A009426B1 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E52E20330D7A009426B1 /* MypageViewController.swift */; };
 		AF89BA612034534700821738 /* ハリネズミ.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF89BA602034534700821738 /* ハリネズミ.jpeg */; };
 		AF89BA632034538C00821738 /* a0001_014465.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF89BA622034538C00821738 /* a0001_014465.jpg */; };
-		AFDF20402035F3CB0012104B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF203F2035F3CB0012104B /* CollectionViewController.swift */; };
+		AFDF20422036BAD50012104B /* TimeLineViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF20412036BAD50012104B /* TimeLineViewCellController.swift */; };
+		AFDF20442036C1FC0012104B /* TimeLineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF20432036C1FC0012104B /* TimeLineData.swift */; };
+		AFDF20462036C3AF0012104B /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF20452036C3AF0012104B /* TimeLineViewController.swift */; };
+		AFDF20482039C4580012104B /* TimeLineCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF20472039C4580012104B /* TimeLineCodable.swift */; };
+		AFDF204A2039CFD90012104B /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFDF20492039CFD90012104B /* test.jpg */; };
+		AFDF204C2039D4AA0012104B /* えんぴつ付きのノートアイコン (1).png in Resources */ = {isa = PBXBuildFile; fileRef = AFDF204B2039D4A90012104B /* えんぴつ付きのノートアイコン (1).png */; };
 		AFF023A020343FD700EB235D /* tabアンケート用紙のアイコン素材.png in Resources */ = {isa = PBXBuildFile; fileRef = AFF0239D20343FD700EB235D /* tabアンケート用紙のアイコン素材.png */; };
 		AFF023A120343FD700EB235D /* tabハサミのフリーアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = AFF0239E20343FD700EB235D /* tabハサミのフリーアイコン.png */; };
 		AFF023A220343FD700EB235D /* tab夜空のフリーアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = AFF0239F20343FD700EB235D /* tab夜空のフリーアイコン.png */; };
@@ -66,7 +71,12 @@
 		AF52E52E20330D7A009426B1 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
 		AF89BA602034534700821738 /* ハリネズミ.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ハリネズミ.jpeg"; sourceTree = "<group>"; };
 		AF89BA622034538C00821738 /* a0001_014465.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a0001_014465.jpg; sourceTree = "<group>"; };
-		AFDF203F2035F3CB0012104B /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		AFDF20412036BAD50012104B /* TimeLineViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewCellController.swift; sourceTree = "<group>"; };
+		AFDF20432036C1FC0012104B /* TimeLineData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineData.swift; sourceTree = "<group>"; };
+		AFDF20452036C3AF0012104B /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		AFDF20472039C4580012104B /* TimeLineCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineCodable.swift; sourceTree = "<group>"; };
+		AFDF20492039CFD90012104B /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		AFDF204B2039D4A90012104B /* えんぴつ付きのノートアイコン (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "えんぴつ付きのノートアイコン (1).png"; sourceTree = "<group>"; };
 		AFF0239D20343FD700EB235D /* tabアンケート用紙のアイコン素材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabアンケート用紙のアイコン素材.png"; sourceTree = "<group>"; };
 		AFF0239E20343FD700EB235D /* tabハサミのフリーアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabハサミのフリーアイコン.png"; sourceTree = "<group>"; };
 		AFF0239F20343FD700EB235D /* tab夜空のフリーアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab夜空のフリーアイコン.png"; sourceTree = "<group>"; };
@@ -157,9 +167,12 @@
 			children = (
 				AF52E4F72032FDE8009426B1 /* AppDelegate.swift */,
 				AF52E4FB2032FDE8009426B1 /* Main.storyboard */,
-				AFDF203F2035F3CB0012104B /* CollectionViewController.swift */,
+				AFDF20452036C3AF0012104B /* TimeLineViewController.swift */,
+				AFDF20432036C1FC0012104B /* TimeLineData.swift */,
+				AFDF20412036BAD50012104B /* TimeLineViewCellController.swift */,
 				AF52E52C203303FC009426B1 /* LoginViewController.swift */,
 				AF52E52E20330D7A009426B1 /* MypageViewController.swift */,
+				AFDF20472039C4580012104B /* TimeLineCodable.swift */,
 				AF0DD8FD20340D9700646DE5 /* login_back.png */,
 				AF52E5012032FDE8009426B1 /* Assets.xcassets */,
 				AFF0239C20343FD700EB235D /* images */,
@@ -191,6 +204,8 @@
 		AFF0239C20343FD700EB235D /* images */ = {
 			isa = PBXGroup;
 			children = (
+				AFDF204B2039D4A90012104B /* えんぴつ付きのノートアイコン (1).png */,
+				AFDF20492039CFD90012104B /* test.jpg */,
 				AFF0239D20343FD700EB235D /* tabアンケート用紙のアイコン素材.png */,
 				AFF0239E20343FD700EB235D /* tabハサミのフリーアイコン.png */,
 				AF89BA622034538C00821738 /* a0001_014465.jpg */,
@@ -317,9 +332,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFF023A120343FD700EB235D /* tabハサミのフリーアイコン.png in Resources */,
+				AFDF204A2039CFD90012104B /* test.jpg in Resources */,
 				AFF023A020343FD700EB235D /* tabアンケート用紙のアイコン素材.png in Resources */,
 				AF52E5052032FDE8009426B1 /* LaunchScreen.storyboard in Resources */,
 				AF89BA632034538C00821738 /* a0001_014465.jpg in Resources */,
+				AFDF204C2039D4AA0012104B /* えんぴつ付きのノートアイコン (1).png in Resources */,
 				AF52E5022032FDE8009426B1 /* Assets.xcassets in Resources */,
 				AF0DD8FE20340D9700646DE5 /* login_back.png in Resources */,
 				AFF023A220343FD700EB235D /* tab夜空のフリーアイコン.png in Resources */,
@@ -352,10 +369,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-mysqlSwift/Pods-mysqlSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,11 +518,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFDF20442036C1FC0012104B /* TimeLineData.swift in Sources */,
+				AFDF20482039C4580012104B /* TimeLineCodable.swift in Sources */,
 				AF52E52D203303FC009426B1 /* LoginViewController.swift in Sources */,
+				AFDF20462036C3AF0012104B /* TimeLineViewController.swift in Sources */,
 				AF52E5002032FDE8009426B1 /* mysqlSwift.xcdatamodeld in Sources */,
 				AF52E4F82032FDE8009426B1 /* AppDelegate.swift in Sources */,
+				AFDF20422036BAD50012104B /* TimeLineViewCellController.swift in Sources */,
 				AF52E52F20330D7A009426B1 /* MypageViewController.swift in Sources */,
-				AFDF20402035F3CB0012104B /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

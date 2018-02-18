@@ -44,7 +44,7 @@ class LoginViewController: UIViewController {
         var error:Error?
         
         if(id != "" || pass != ""){
-            let requestURL = URL(string: "http://ec2-18-219-91-77.us-east-2.compute.amazonaws.com/Adduser/hack/login.hh");
+            let requestURL = URL(string: "http://ec2-18-221-218-39.us-east-2.compute.amazonaws.com/Adduser/hack/login.hh");
             let request = NSMutableURLRequest(url: requestURL! as URL);
             
             request.httpMethod = "POST";
